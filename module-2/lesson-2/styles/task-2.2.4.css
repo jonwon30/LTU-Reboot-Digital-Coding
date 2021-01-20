@@ -1,3 +1,11 @@
 /* Your code goes below here */
+p strong {
+    color: red;
+    font-size: 18px;
+}
 
+p em{
+    color: blue;
+    font-size: 12px;
+}
 /* Your code goes above here */
