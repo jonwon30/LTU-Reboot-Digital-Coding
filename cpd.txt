@@ -2,18 +2,17 @@ CPD - Continuing Professional Development
 
 
 Date of CPD activity
-13/01/2021
+21/01/2021
 
 CPD activity
 Introduction to Web Development
 
 
 What have I learnt?
-GitHub, Resource Tools, GitHub Desktop, Websites, Video Guides
-test
+responsive Development elements which was very useful
 
 How did I use this in practice?
-Improving my knowledge
+worked along with the tasks
 
 
 What did I find hard?
