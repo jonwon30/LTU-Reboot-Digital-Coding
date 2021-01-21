@@ -1,0 +1,17 @@
+div.relative {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 300px;
+    width: 300px;
+    border: 6px solid green;
+}
+
+div.relative2 {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    height: 300px;
+    width: 300px;
+    border: 6px solid green;
+}
