@@ -17,3 +17,10 @@ console.log(x * y);
 console.log(x - y);
 console.log(x / y);
 console.log(x % y);
+
+var firstName = "John";
+var lastName = " Stapylton";
+var  fullName = firstName + lastName;
+console.log (firstName);
+console.log (fullName);
+console.log(`My first name is ${firstName} and my second name is ${lastName}, my full name is ${firstName} ${lastName}`);
