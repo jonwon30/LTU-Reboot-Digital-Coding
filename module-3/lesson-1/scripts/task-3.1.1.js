@@ -24,3 +24,10 @@ var  fullName = firstName + lastName;
 console.log (firstName);
 console.log (fullName);
 console.log(`My first name is ${firstName} and my second name is ${lastName}, my full name is ${firstName} ${lastName}`);
+
+var bill = 100;
+var billn = bill.toFixed(2);
+var tip =  bill/10;
+var total_bill = bill + tip;
+var n = total_bill.toFixed(2);
+console.log ("the bill is £" + billn + " " + "The tip is " + tip + "% " + "the final bill is £" + n );
