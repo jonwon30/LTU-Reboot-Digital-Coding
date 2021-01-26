@@ -12,6 +12,7 @@ function test (a, b) { // a and b can be called anything.
 
 test(10, 15) // a = 10, b = 15.  test calls the function and the numbers represent a, b.
 
+/*
 function fullName (firstName, LastName) {
     fullName = firstName + " " + LastName
     console.log("Your full name is " + fullName)
@@ -20,3 +21,10 @@ function fullName (firstName, LastName) {
 let firstName = prompt("What is your first Name?");
 let lastName = prompt("What is your last Name?");
 fullName(firstName, lastName)
+*/
+
+function mathPower (num1, num2) {
+    return Math.pow(num1, num2);
+}
+
+console.log(mathPower(7, 3));
