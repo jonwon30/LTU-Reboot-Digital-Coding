@@ -1,3 +1,4 @@
+/*
 let temp1 = prompt("what is the temperature between 1 and 100?")
 let tempnNum = parseInt(temp1)
 if (tempnNum <= 10 ){
@@ -10,4 +11,15 @@ if (tempnNum <= 10 ){
     console.log ("wow thats hot!");
 } else {
     console.log("please enter a number, that entry wasn't valid")
-};
+}; */
+
+let num1 = 100;
+let num2 = 10;
+
+function numPercent (a, b) {
+    let percentage = a * b / 100;
+    total = num1 + percentage
+    return total;
+}
+
+console.log(numPercent(num1, num2));
