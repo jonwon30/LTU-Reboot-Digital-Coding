@@ -20,11 +20,12 @@ totalPrice1 = 0
         for (i = 0; i < cart.length; i++) {
             if (cart[i].type === "food") {
                 let discount = (cart[i].price * 20 / 100 );
-                totalPrice1 += (cart[i].price) - discount * cart[i].quantity
+                totalPrice1 += (cart[i].price - discount) * cart[i].quantity
             } else {
-                totalPrice1 += totalPrice1 += cart[i].price * cart[i].quantity
+                totalPrice1 += + cart[i].price * cart[i].quantity
             }
-            }
+        }
+            
             return totalPrice1
         }
 
