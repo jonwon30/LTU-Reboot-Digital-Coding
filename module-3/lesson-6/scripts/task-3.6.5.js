@@ -8,10 +8,10 @@ submitButton.addEventListener( 'click', function(event){
 
 
 let num1 = document.querySelector('input[name="number1"]');
-let submitButton2 = document.querySelector('input[type="submit2"]');
+let submitButton2 = document.querySelector('input[name="submit2"]');
 
 let num2 = document.querySelector('input[name="number2"]');
-let submitButton3 = document.querySelector('input[type="submit3"]');
+let submitButton3 = document.querySelector('input[name="submit3"]');
 
 var a = num1.value
 var b = num2.value
