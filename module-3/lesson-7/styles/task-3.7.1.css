@@ -1,0 +1,21 @@
+body {
+    background-color: lightgrey;
+}
+
+header {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+div.images {
+    width: 400px;
+    margin-top: 50px;
+}
+
+img {
+    width: 100%;
+    border: 3px solid black;
+}
