@@ -1,6 +1,6 @@
 let disabledFile = document.querySelector('a.disabled')
 
-disabledFile.addEventlistener('click', function(event) {
+disabledFile.addEventListener('click', function(event) {
     event.preventDefault();
 });
 
