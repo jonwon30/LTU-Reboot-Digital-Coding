@@ -3,9 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/task-3.7.1.css">
   <title>Task 3.7.1</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Using JS to Filter</h1>
+
+    <div class="selection-container">
+      <button class="selection" data-class="all">All</button>
+      <button class="selection" data-class="winter">Winter</button>
+      <button class="selection" data-class="spring">Spring</button>
+      <button class="selection" data-class="summer">Summer</button>
+      <button class="selection" data-class="autumn">Autumn</button>
+    </div>
+  </header> <!-- End of Header -->
+
+  <main>
+
+    <div class="image-selections">
+
+      <div class="images" class="winter" data-class="winter">
+        <img title="Winter 1" src="https://images.unsplash.com/photo-1489674267075-cee793167910?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80" alt="">
+
+        <img title="winter 2" src="https://images.unsplash.com/photo-1513267257196-91be473829b3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="">
+
+        <img title="winter 3" src="https://images.unsplash.com/photo-1457269449834-928af64c684d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="">
+
+        <img title="winter 4" src="https://images.unsplash.com/photo-1604537466573-5e94508fd243?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80" alt="">
+    </div>
+
+    <div class="images" data-class="spring">
+        <img title="spring1" src="https://images.unsplash.com/photo-1560258018-c7db7645254e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" alt="">
+        <img title="spring2" src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+        <img title="spring3" src="https://images.unsplash.com/photo-1431698194201-465e7d003539?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80" alt="">
+        <img title="spring4" src="https://images.unsplash.com/photo-1577862236121-c237c73ef4ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+    </div>
+
+    <div class="images" class="summer" data-class="summer">
+      <img title="summer1" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+      <img title="summer2" src="" alt="">
+      <img title="summer3" src="" alt="">
+      <img title="summer4" src="" alt="">
+    </div>
+
+    <div class="images" data-class="autumn">
+      <img title="autumn1" src="https://images.unsplash.com/photo-1574159087201-e2147a95910d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80" alt="">
+      <img title="autumn2" src="" alt="">
+      <img title="autumn3" src="" alt="">
+      <img title="autumn4" src="" alt="">
+    </div>
+
+    </div> <!-- End of image selections -->
+
+  </main> <!-- End of Main -->
+
+  <script src="./scripts/task-3.7.1.js"></script>
 </body>
 </html>
