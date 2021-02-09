@@ -109,20 +109,28 @@ Console log the full word again but amended as per above
 
 */
 
+// start of function
 function fixStart ( word ) {
-    let firstWord = word[0];
-    let newWord = "";
+    let firstWord = word[0].toLowerCase();
+    let newWord = ""
+    let wordLength = word.length
 
-    for (loop = 0; loop < word.length; loop++) {
-        if (word[loop] === firstWord) {
-            newWord = "*"
-            console.log(newWord)
-        } else {
-            console.log(newWord)
-        }
+        for (loop = 0; loop < word.length; loop++) {
+            if (word[loop] === firstWord) {
+                newWord += ("*");
+            } 
+            else if (word[loop] != firstWord) 
+            {
+                newWord += word[loop]
+            } 
     }
-    console.log(word)
-}
+    console.log(word[0] + newWord.slice(1,wordLength))
+    }
 
-fixStart("babble")
+// end of function
+
+fixStart("Babble");
+fixStart("Turtle");
+fixStart("Turtles do not like to be turned over, if you turn over a turtle, it's best to help them and turn then upright");
+
 
