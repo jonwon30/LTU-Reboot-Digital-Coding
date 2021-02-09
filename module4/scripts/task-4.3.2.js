@@ -100,5 +100,29 @@ create a function called fixStart, it should take a single argument, a string an
 fixStart ('babble'): ba**le
 fixStart ('turtle'): tur*le
 
+Steps:
+Create a function that can take any word
+set a let for the first letter in that word
+Create a LOOP to iterate through the word, matching the first letter of the string
+if found, console.log '*' instead of the found letter.
+Console log the full word again but amended as per above
+
 */
+
+function fixStart ( word ) {
+    let firstWord = word[0];
+    let newWord = "";
+
+    for (loop = 0; loop < word.length; loop++) {
+        if (word[loop] === firstWord) {
+            newWord = "*"
+            console.log(newWord)
+        } else {
+            console.log(newWord)
+        }
+    }
+    console.log(word)
+}
+
+fixStart("babble")
 
